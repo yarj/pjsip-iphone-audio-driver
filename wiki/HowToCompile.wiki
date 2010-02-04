@@ -1,0 +1,42 @@
+#summary One-Compiling pjsip and audio driver for iPhone SDK
+
+= Introduction =
+
+In order to provide precise step-by-step build instructions, we've opted to write these instructions to target a specific version of PJSIP. We recommend you follow these instructions to the letter first (so you have a working build) before venturing off to another version of PJSIP.
+
+
+= Step 1 =
+
+Download PJSIP v1.0.3 from subversion. Open up your terminal, and execute the following 2 commands:
+
+  * cd ~/Desktop
+  * svn checkout http://svn.pjsip.org/repos/pjproject/tags/1.0.3 pjsip
+
+This will create a folder called "pjsip" on your Desktop, and download the 1.0.3 release into that folder. The rest of the instructions assume the folder is on your Desktop.
+
+= Step 2 =
+
+Download the latest version of the iPhone audio driver from the Downloads page.
+
+Then place the downloaded audio driver file into the location:<br/>
+~/Desktop/pjsip/pjmedia/src/pjmedia/iphonesound.c
+
+= Step 3 =
+
+Download the pjsip-patch-1_0_3.txt from the Downloads page.<br/>
+Then place the downloaded patch file on your Desktop.
+
+= Step 4 =
+
+Apply the patch file by executing the following two commands:
+
+  * cd ~/Desktop/pjsip
+  * patch -p1 < ../pjsip-patch-1_0_3.txt
+
+= Step 5 =
+
+Compile pjsip by executing the following 3 commands:
+
+  * cd ~/Desktop/pjsip
+  * chmod 755 compile.sh
+  * ./compile.sh
