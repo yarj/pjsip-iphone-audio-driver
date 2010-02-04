@@ -1,4 +1,4 @@
-#summary One-Compiling pjsip and audio driver for iPhone SDK
+#summary Compiling pjsip and audio driver for iPhone SDK
 
 = Introduction =
 
