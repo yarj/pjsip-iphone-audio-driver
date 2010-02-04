@@ -40,3 +40,27 @@ Compile pjsip by executing the following 3 commands:
   * cd ~/Desktop/pjsip
   * chmod 755 compile.sh
   * ./compile.sh
+
+After several minutes, the pjsip libraries will be compiled.  You can find the library files here:
+
+  * pjlib/lib/libpj-arm-apple-darwin9.a
+  * pjlib-util/lib/libpjlib-util-arm-apple-darwin9.a
+  * pjmedia/lib/libpjmedia-arm-apple-darwin9.a
+  * pjmedia/lib/libpjmedia-codec-arm-apple-darwin9.a
+  * pjmedia/lib/libpjsdp-arm-apple-darwin9.a
+  * pjnath/lib/libpjnath-arm-apple-darwin9.a
+  * pjsip/lib/libpjsip-arm-apple-darwin9.a
+  * pjsip/lib/libpjsip-simple-arm-apple-darwin9.a
+  * pjsip/lib/libpjsip-ua-arm-apple-darwin9.a
+  * pjsip/lib/libpjsua-arm-apple-darwin9.a
+  * third_party/lib/libgsmcodec-arm-apple-darwin9.a
+  * third_party/lib/libmilenage-arm-apple-darwin9.a
+  * third_party/lib/libresample-arm-apple-darwin9.a
+  * third_party/lib/libsrtp-arm-apple-darwin9.a
+
+Compilation is now done.  Now go learn about pjsip!
+
+[http://www.pjsip.org/docs.htm PJSIP Documentation]<br/>
+[http://trac.pjsip.org/repos/wiki/PJSIP_Tutorial PJSIP Tutorial]<br/>
+[http://code.google.com/p/siphon/ Siphon (Example application)]<br/>
+[http://code.google.com/p/telephone/ Telephone (Excellent Objective-C wrappers for PJSIP)]<br/>
