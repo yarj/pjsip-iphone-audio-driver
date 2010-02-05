@@ -1,0 +1,8 @@
+#summary Apps using this pjsip-iPhone audio driver
+
+==Voalte==
+[http://www.voalte.com/public/images/iphone-for-website.jpg]
+
+[http://www.voalte.com Voalte] is redefining hospital mobile point-of-care communication by providing a complete solution for voice, alarms and text messaging on a robust expandable platform - the Apple iPhone. The resulting improvement in clinician workflow leads to better patient outcomes and improvements in nurse job satisfaction.
+
+[http://itunes.apple.com/us/app/voalte-one/id350193462?mt=8 VoalteOne on the App Store]
