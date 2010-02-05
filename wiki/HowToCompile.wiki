@@ -30,16 +30,16 @@ Then place the downloaded patch file on your Desktop.
 
 Apply the patch file by executing the following two commands:
 
-  * cd ~/Desktop/pjsip
-  * patch -p1 < ../pjsip-patch-1_0_3.txt
+  * `cd ~/Desktop/pjsip`
+  * `patch -p1 < ../pjsip-patch-1_0_3.txt`
 
 = Step 5 =
 
 Compile pjsip by executing the following 3 commands:
 
-  * cd ~/Desktop/pjsip
-  * chmod 755 compile.sh
-  * ./compile.sh
+  * `cd ~/Desktop/pjsip`
+  * `chmod 755 compile.sh`
+  * `./compile.sh`
 
 After several minutes, the pjsip libraries will be compiled.  You can find the library files here:
 
