@@ -1,4 +1,4 @@
-#summary Software plug-ins that process audio data.
+#summary Software plug-ins that process audio data
 
 Audio units provide the mechanism for applications to achieve low-latency audio input and output. They can generate, process, receive, or otherwise manipulate streams of audio in near-real-time.
 
