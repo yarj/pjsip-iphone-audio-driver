@@ -1,9 +1,14 @@
-#summary Compiling pjsip and audio driver for iPhone SDK
+#summary Compiling pjsip and audio driver for iPhone SDK 3.1.2
 
 = Introduction =
 
 In order to provide precise step-by-step build instructions, we've opted to write these instructions to target a specific version of PJSIP. We recommend you follow these instructions to the letter first (so you have a working build) before venturing off to another version of PJSIP.
 
+= Step 0 =
+
+These instructions have been tested with the iPhone SDK 3.1.2 on:
+  * Leopard 10.5.8
+  * Snow Leopard 10.6.2
 
 = Step 1 =
 
