@@ -69,6 +69,9 @@ Compilation is now done.  Now go learn about pjsip!
 
 The `compile.sh` script builds specifically with iPhone SDK 3.1.2.  To build with another version of the iPhone SDK pass in the version number as the first argument.  For example, to build with iPhone SDK 3.0 (the earliest version tested) in Step 5 use `./compile.sh 3.0`
 
+=Thanks=
+Special thanks to Samuel Vinson of the [http://code.google.com/p/siphon/ Siphon Project] for getting PJSIP to compile for the iPhone SDK and inspiring this work.
+
 =Links=
 
 [http://www.pjsip.org/docs.htm PJSIP Documentation]<br/>
